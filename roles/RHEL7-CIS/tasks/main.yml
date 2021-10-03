@@ -22,7 +22,7 @@
       - prelim_tasks
       - always
 
-- include: section1.yml
+- include_tasks: section1.yml
   become: yes
   when: rhel7cis_section1|bool
   tags:
